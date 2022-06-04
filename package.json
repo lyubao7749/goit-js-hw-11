@@ -1,11 +1,11 @@
 {
-  "name": "parcel-project-template",
+  "name": "goit-js-hw-11",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://github.com/lyubao7749/goit-project-template.git",
+  "homepage": "https://github.com/lyubao7749/goit-js-hw-11.git",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /goit-project-template/"
+    "build": "parcel build src/*.html --public-url /goit-js-hw-11/"
   },
   "repository": {
     "type": "git",
