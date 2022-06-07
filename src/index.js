@@ -22,6 +22,7 @@ function onSearchForm(event) {
     event.preventDefault();
     queryString = event.currentTarget.searchQuery.value.trim();
     if (queryString === '') {
+        Notify.failure('The search string cannot be empty. Please specify your search query.');
         return;
     }
     page = 1;
